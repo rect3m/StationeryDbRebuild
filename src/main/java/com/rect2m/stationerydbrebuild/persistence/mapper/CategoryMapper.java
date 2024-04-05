@@ -1,6 +1,6 @@
-package com.rect2m.stationerydbrebuild.mapper;
+package com.rect2m.stationerydbrebuild.persistence.mapper;
 
-import com.rect2m.stationerydbrebuild.entity.Category;
+import com.rect2m.stationerydbrebuild.persistence.entity.Category;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

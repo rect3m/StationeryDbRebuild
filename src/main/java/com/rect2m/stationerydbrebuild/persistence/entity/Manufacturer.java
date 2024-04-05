@@ -1,12 +1,14 @@
-package com.rect2m.stationerydbrebuild.entity;
+package com.rect2m.stationerydbrebuild.persistence.entity;
 
-public class Category {
+public class Manufacturer {
     private final int id;
     private final String name;
+    private final String country;
 
-    private Category(Builder builder) {
+    private Manufacturer(Builder builder) {
         this.id = builder.id;
         this.name = builder.name;
+        this.country = builder.country;
     }
 
     public int getId() {
@@ -17,9 +19,14 @@ public class Category {
         return name;
     }
 
+    public String getCountry() {
+        return country;
+    }
+
     public static class Builder {
         private int id;
         private String name;
+        private String country;
 
         public Builder setId(int id) {
             this.id = id;
@@ -31,8 +38,13 @@ public class Category {
             return this;
         }
 
-        public Category build() {
-            return new Category(this);
+        public Builder setCountry(String country) {
+            this.country = country;
+            return this;
+        }
+
+        public Manufacturer build() {
+            return new Manufacturer(this);
         }
     }
 }

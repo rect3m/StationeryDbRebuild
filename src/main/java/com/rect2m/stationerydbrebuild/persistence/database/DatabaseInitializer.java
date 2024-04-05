@@ -1,4 +1,4 @@
-package com.rect2m.stationerydbrebuild.database;
+package com.rect2m.stationerydbrebuild.persistence.database;
 
 import java.sql.Connection;
 import java.sql.SQLException;

@@ -1,6 +1,6 @@
-package com.rect2m.stationerydbrebuild.validation.impl;
+package com.rect2m.stationerydbrebuild.persistence.validation.impl;
 
-import com.rect2m.stationerydbrebuild.validation.exception.ValidationIOException;
+import com.rect2m.stationerydbrebuild.persistence.validation.exception.ValidationIOException;
 import java.math.BigDecimal;
 
 public class ValidationImpl {

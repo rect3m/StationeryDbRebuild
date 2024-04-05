@@ -1,4 +1,4 @@
-package com.rect2m.stationerydbrebuild.entity;
+package com.rect2m.stationerydbrebuild.persistence.entity;
 
 import java.math.BigDecimal;
 

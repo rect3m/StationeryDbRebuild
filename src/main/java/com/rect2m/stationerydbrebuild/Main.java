@@ -1,7 +1,7 @@
 package com.rect2m.stationerydbrebuild;
 
-import com.rect2m.stationerydbrebuild.database.ConnectionPool;
-import com.rect2m.stationerydbrebuild.database.DatabaseInitializer;
+import com.rect2m.stationerydbrebuild.persistence.database.ConnectionPool;
+import com.rect2m.stationerydbrebuild.persistence.database.DatabaseInitializer;
 import java.sql.Connection;
 
 public class Main {
